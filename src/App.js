@@ -23,7 +23,7 @@ function App() {
     fetch("movies.json")   // Async Operation
         .then(response => response.json())
         .then(data => setMovies(data));
-
+        
     }, []);
 
   // creating a toggle
